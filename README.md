@@ -1,16 +1,23 @@
-# CT_cardiac_substructures_DeepLab
-DL models for segmentation of heart and sub-structures
-
-This is a heart segmentation container used to segment the following structures:
+# Cardiac substructures segmentation for planning CT
+This repository provides Deep-Learning models for segmentation of heart and sub-structures from Radiotherapy planning CT scans in Head-First Supine position. The following structures are segmented.
 	Heart - Aorta, SVC, IVC, PA, LA, LV, RA, RV 
 	HeartStructure
 	Atria
 	Ventricles
 	Pericardium
 
+## Building Anaconda environment
+````
+conda create -y --name CT_heart_substructs python=3.8
+conda activate CT_heart_substructs
+pip install -r requirements.txt
+````
+
+
+## License
 By downloading the software you are agreeing to the following terms and conditions as well as to the Terms of Use of CERR software.
 
-    THE SOFTWARE IS PROVIDED ?AS IS,? AND CERR DEVELOPMENT TEAM AND ITS COLLABORATORS DO NOT MAKE ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, NOR DO THEY ASSUME ANY LIABILITY OR RESPONSIBILITY FOR THE USE OF THIS SOFTWARE.
+    THE SOFTWARE IS PROVIDED "AS IS" AND CERR DEVELOPMENT TEAM AND ITS COLLABORATORS DO NOT MAKE ANY WARRANTY, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, NOR DO THEY ASSUME ANY LIABILITY OR RESPONSIBILITY FOR THE USE OF THIS SOFTWARE.
         
     This software is for research purposes only and has not been approved for clinical use.
     
